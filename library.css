@@ -1,0 +1,56 @@
+html, body {
+    scroll-behavior: smooth;
+    background: linear-gradient(75deg, #3629e4, #1fb2cc);
+    background-size: 400% 400%;
+
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 58%
+    }
+
+    50% {
+        background-position: 100% 43%
+    }
+
+    100% {
+        background-position: 0% 58%
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    animation:
+        typing 2s steps(20, end) forwards,
+        blink 1s infinite;
+    font-size: 2rem;
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 19.5%
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: white;
+    }
+}

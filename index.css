@@ -1,0 +1,54 @@
+html, body {
+    scroll-behavior: smooth;
+    background: linear-gradient(75deg, #252525, #000000);
+    background-size: 400% 400%;
+
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+
+#maintitle {
+    color: white;
+    text-align: center;
+}
+
+#main {
+    background: linear-gradient(222deg, #252525, #000000);
+    background-size: 400% 400%;
+
+    animation: gradient 10s ease infinite;
+}
+
+.whitecoloring {
+    color: white;
+}
+
+.line {
+    border: solid 1px white;
+    height: 1px;
+    width: auto;
+}
+
+.square {
+    visibility: hidden;
+    border: solid 5px white;
+    width: 100vh;
+    height: 87vh;
+    margin: auto;
+}
+
+.ann {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.center {
+    text-align: center;
+}
